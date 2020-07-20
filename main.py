@@ -7,7 +7,7 @@ def add(a, b):
 
 
 def main():
-    name = logic.name_from_cli()
+    name = logic.parse_name()
     print(f"Hello, {name}")
 
     result = add(1, 2)
